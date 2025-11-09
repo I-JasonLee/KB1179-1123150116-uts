@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Image.asset(
-                      splashData[index]['image']!,
+                      splashData[index]['images']!,
                       height: size.height * 0.4,
                     ),
                     const SizedBox(height: 40),

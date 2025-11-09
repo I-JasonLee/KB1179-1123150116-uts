@@ -20,7 +20,7 @@ class SignInScreen extends StatelessWidget {
               const SizedBox(height: 20),
               TextField(decoration: const InputDecoration(labelText: 'Email')),
               const SizedBox(height: 12),
-              TextField(obscureText: true, decoration: const InputDecoration(labelText: 'Email')),
+              TextField(obscureText: true, decoration: const InputDecoration(labelText: 'Password')),
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () => Navigator.pushNamed(context, '/signup'),
